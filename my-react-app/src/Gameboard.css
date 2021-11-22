@@ -1,0 +1,23 @@
+.gameboard {
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
+.shotchart {
+	background-image: url("/half-court.jpg");
+ 	background-color: #cccccc;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	position: relative;
+	width: 1000px;
+	height: 700px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gameboard-shot {
+	position: absolute;
+	font-size: 36px;
+}
